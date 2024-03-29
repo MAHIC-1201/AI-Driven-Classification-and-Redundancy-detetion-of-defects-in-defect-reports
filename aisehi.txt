@@ -1,0 +1,255 @@
+// import React, { useState } from 'react';
+
+// function ClassifyDefectsPage1() {
+//   const [dropdownOpen, setDropdownOpen] = useState(false);
+
+//   const handleDropdownToggle = () => {
+//     setDropdownOpen(!dropdownOpen);
+//   };
+
+//   const handleOptionClick = (option) => {
+//     // Handle option selection here, e.g., upload from device or Google Drive
+//     console.log("Selected option:", option);
+//     // Close the dropdown after selecting an option
+//     setDropdownOpen(false);
+//   };
+
+//   return (
+//     <div className="App">
+//       <header className="header">
+//         <div className="left">
+//           <p className="util">Util</p>
+//         </div>
+//         <div className="center">
+//           <p className="classifyDefects">Classify Defects</p>
+//         </div>
+//         <div className="right">
+//           <button className="homeButton">Back to Home</button>
+//         </div>
+//       </header>
+//       <main className="content">
+//         <p className="uploadText">Upload your excel file of defect report</p>
+//         <button className="chooseFileButton" onClick={handleDropdownToggle}>
+//           Choose File
+//           {dropdownOpen ? (
+//             <span>&#9650;</span> // Upward arrow when dropdown is open
+//           ) : (
+//             <span>&#9660;</span> // Downward arrow when dropdown is closed
+//           )}
+//         </button>
+//         {dropdownOpen && (
+//           <div className="dropdown">
+//             <p className="option" onClick={() => handleOptionClick("Device")}>
+//               Choose file from device
+//             </p>
+//             <p className="option" onClick={() => handleOptionClick("Google Drive")}>
+//               Choose file from Google Drive
+//             </p>
+//           </div>
+//         )}
+//       </main>
+//     </div>
+//   );
+// }
+
+// export default ClassifyDefectsPage1;
+
+// import React from 'react';
+// import './classify_defects_page1.css';
+
+// function ClassifyDefectsPage1({ setCurrentPage }) {
+//   const handleBackToHomeClick = () => {
+//     setCurrentPage('homepage'); // Set current page to 'homepage' when the button is clicked
+//   };
+
+//   return (
+//     <div className="App">
+//       <header className="header">
+//         <div className="left">
+//           <p className="util">Util</p>
+//         </div>
+//         <div className="center">
+//           <p className="classifyDefects">Classify Defects</p>
+//         </div>
+//         <div className="right">
+//           {/* Call handleBackToHomeClick function when the button is clicked */}
+//           <button className="homeButton" onClick={handleBackToHomeClick}>
+//             Back to Home
+//           </button>
+//         </div>
+//       </header>
+//       <main className="content">
+//         <p className="uploadText">Upload your excel file of defect report</p>
+//         <button className="chooseFileButton">
+//           Choose File
+//         </button>
+//       </main>
+//     </div>
+//   );
+// }
+
+// export default ClassifyDefectsPage1;
+
+// import React, { useState } from 'react';
+// import './classify_defects_page1.css'; // Import the CSS file
+
+// function ClassifyDefectsPage1({ setCurrentPage }) {
+//   const [dropdownOpen, setDropdownOpen] = useState(false);
+
+//   const handleDropdownToggle = () => {
+//     setDropdownOpen(!dropdownOpen);
+//   };
+
+//   const handleOptionClick = (option) => {
+//     // Handle option selection here
+//     console.log("Selected option:", option);
+//     // Close the dropdown after selecting an option
+//     setDropdownOpen(false);
+//   };
+
+//   const handleBackToHomeClick = () => {
+//     setCurrentPage('homepage'); // Set current page to 'homepage' when the button is clicked
+//   };
+
+//   return (
+//     <div className="App">
+//       <header className="header">
+//         <div className="left">
+//           <p className="util">Util</p>
+//         </div>
+//         <div className="center">
+//           <p className="classifyDefects">Classify Defects</p>
+//         </div>
+//         <div className="right">
+//           {/* Call handleBackToHomeClick function when the button is clicked */}
+//           <button className="homeButton" onClick={handleBackToHomeClick}>
+//             Back to Home
+//           </button>
+//         </div>
+//       </header>
+//       <main className="content">
+//         <p className="uploadText">Upload your excel file of defect report</p>
+//         <div className="dropdown">
+//           <button className="chooseFileButton" onClick={handleDropdownToggle}>
+//             Choose File
+//             {dropdownOpen ? (
+//               <span>&#9650;</span> // Upward arrow when dropdown is open
+//             ) : (
+//               <span>&#9660;</span> // Downward arrow when dropdown is closed
+//             )}
+//           </button>
+//           {dropdownOpen && (
+//             <div className="dropdownContent">
+//               <p className="option" onClick={() => handleOptionClick("Device")}>
+//                 Choose file from device
+//               </p>
+//               <p className="option" onClick={() => handleOptionClick("Google Drive")}>
+//                 Choose file from Google Drive
+//               </p>
+//             </div>
+//           )}
+//         </div>
+//       </main>
+//     </div>
+//   );
+// }
+
+// export default ClassifyDefectsPage1;
+
+import React, { useState } from 'react';
+import './classify_defects_page1.css'; // Import the CSS file
+
+function ClassifyDefectsPage1({ setCurrentPage }) {
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const handleDropdownToggle = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+
+  const handleOptionClick = (option) => {
+    // Handle option selection here
+    console.log("Selected option:", option);
+    // Close the dropdown after selecting an option
+    setDropdownOpen(false);
+
+    if (option === "Device") {
+      // Open file dialog to choose file from device
+      document.getElementById('fileInput').click();
+    } else if (option === "Google Drive") {
+      // Open Google Drive interface to choose file
+      openGoogleDrivePicker();
+    }
+  };
+
+  const openGoogleDrivePicker = () => {
+    // Implement the logic to open Google Drive picker here
+    // You would need to integrate Google Picker API
+    console.log("Opening Google Drive picker...");
+    // Example code for opening Google Drive picker:
+    // window.gapi.load('picker', () => {
+    //   const picker = new window.google.picker.PickerBuilder()
+    //     .addView(window.google.picker.ViewId.DOCS)
+    //     .setOAuthToken(/* your OAuth token */)
+    //     .setCallback(/* callback function */)
+    //     .build();
+    //   picker.setVisible(true);
+    // });
+  };
+
+  const handleFileInputChange = (event) => {
+    // Handle file selection from device here
+    const selectedFile = event.target.files[0];
+    console.log("Selected file:", selectedFile);
+    // You can perform further actions with the selected file
+  };
+
+  const handleBackToHomeClick = () => {
+    setCurrentPage('homepage'); // Set current page to 'homepage' when the button is clicked
+  };
+
+  return (
+    <div className="App">
+      <header className="header">
+        <div className="left">
+          <p className="util">UTIL</p>
+        </div>
+        <div className="center">
+          <p className="classifyDefects">Classify Defects</p>
+        </div>
+        <div className="right">
+          {/* Call handleBackToHomeClick function when the button is clicked */}
+          <button className="homeButton" onClick={handleBackToHomeClick}>
+            Back to Home
+          </button>
+        </div>
+      </header>
+      <main className="content">
+        <p className="uploadText">Upload your excel file of defect report</p>
+        <div className="dropdown">
+          <button className="chooseFileButton" onClick={handleDropdownToggle}>
+            Choose File
+            {dropdownOpen ? (
+              <span>&#9650;</span> // Upward arrow when dropdown is open
+            ) : (
+              <span>&#9660;</span> // Downward arrow when dropdown is closed
+            )}
+          </button>
+          <input id="fileInput" type="file" style={{ display: 'none' }} onChange={handleFileInputChange} />
+          {dropdownOpen && (
+            <div className="dropdownContent">
+              <p className="option" onClick={() => handleOptionClick("Device")}>
+                Choose file from device
+              </p>
+              <p className="option" onClick={() => handleOptionClick("Google Drive")}>
+                Choose file from Google Drive
+              </p>
+            </div>
+          )}
+        </div>
+      </main>
+    </div>
+  );
+}
+
+export default ClassifyDefectsPage1;
+
