@@ -215,17 +215,18 @@ function DuplicatesDetectionPage1({ setCurrentPage }) {
             </div>
           )}
         </div>
-        <button onClick={handleSubmit} disabled={!selectedOldFile || !selectedNewFile || loading}>
+        <button className="Comparebutton" onClick={handleSubmit} disabled={!selectedOldFile || !selectedNewFile || loading}>
           {loading ? 'Comparing...' : 'Compare Reports'
           }
         </button>
         {results.length > 0 && (
         <div className='ResultsTable'>
           <div className='filter'>
-            <input type="text" placeholder="Filter" value={filterValue} onChange={handleFilterChange} />
+            <input type="text" placeholder="Search any defect" value={filterValue} onChange={handleFilterChange} />
           </div>
           <div className="Results">
             <h2>Results:</h2>
+            
             <table>
               <thead >
                 <tr>

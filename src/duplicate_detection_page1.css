@@ -43,6 +43,7 @@
   border-radius: 5px;
   font-size: 18px;
   margin-top: 30px;
+  /* margin-left: 20%; */
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s; /* Adding smooth transition */
 }
@@ -67,9 +68,11 @@
   color: black; /* Change text color on hover */
 }
 .filter{
-  align-items: center;
-  align-self: center;
-  padding-left: 92%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 600px; /* Adjust as needed */
+  margin-right: 20px;
   
 }
 .Results th {
@@ -90,4 +93,13 @@
   padding-left: 40%;
   justify-content: center;
   align-items: center;
+}
+.Comparebutton{
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 30px;
 }
