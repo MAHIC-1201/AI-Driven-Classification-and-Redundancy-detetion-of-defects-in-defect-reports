@@ -1,456 +1,277 @@
-Issue Summary
-Buttons size are not proper on Confirmation Page.
- Top label Spacing margin - Payment Instrument Selection Page
-[Mobile App] Keypad should be numeric when user enters mobile number while doing Topup.
-Incorrect Monetary value is getting displayed on Buy Voucher transaction success screen.
-Credit Value and Progress bar is not proper on BNPL Dashboard
-"After entering invalid member Mobile numner, getting wrong error message"
-"Getting ""Data not found"" when user tries to open ""Declined by you"" card in payment status tab"
-Filter is not working properly on the Goal History page
-"After click on Paid by All, the status automatic change to Mark as Paid"
-Error message is not correct for already added member
-Error message is not correct for already added group
-Close (X) is not visible on the Remove All pop-up
-UI of the pending payment tab for member is not matching with the wireframe
-"""Split Payment - Decline"" text should visible at the top of the screen after clicking on the decline button"
-UI of the payment status for admin/Member is not matching with the wireframe
-LNR Profile Wrong Shown
-Image is upload is not working while creating Group in SplitPayment
-"No. of Members is showing incorrect on group tile on the Split Payment screen, when going back by clicking mobile's back button"
-After getting the error for uploading more than 100KB of image still user is able to create the group and move forward
-Image is not showing properly on the added group tile on the split payment screen
-"As per the wireframe, added group tile image border should be in curve"
-Height of the added group tile is not as per the wireframe
-Upload picture Icon size should display as per the wireframe
-The screen is blinking on the click of What's next link which is not proper
-Create group pop-up screen should not be scrollable
-"The page is loading with "" No activity"" and then again with the data on the What's next link"
-Unit name is not displaying in the Loyalty Transaction Summary downloaded document
-User able to enter more than 30 characters and also able to enter the special characters
-User able to upload the group Image more than 100 KB
-Close (X) is not visible on the leave & delete group confirmation pop-up
-"Group Icon, Group Name and Admin details are not visible on the create group screen"
-"""Add"" button should be disabled, if user doesn't enter anything in the required field."
-Font size of the elements are not matching with the given wireframe
-Font Size is not matching with the wireframe
-"""By you"" text should be visible instead of ""By Admin"""
-Add Members Icon is not as per the wireframe
-UI of the create group page is not as per the wireframe
-"""Edit Group"" text is visible instead of ""Create Group"" text"
-"Add (+) icon on the group icon should change to edit icon, after uploading the image successfully"
-Close (X) button is not present on the create group screen
-Height of the Create group screen is not as per the wire frame
-UI of split payment screen is not matching with the wire frame
-Icon of Split payment service is not matching with the wireframe
-For some of the Goals unable to view txn history.
-MPIN option is not available on Confirmation Page
-The name of the Pouch is wrong on the confirmation page of Redeem points
-Weekly & Daily: Recurring amount is calculating wrong while creating Goal or Installment Count is wrong.
-After applying the failed filter also able to see the Successful results
-"Shadow transition is getting displayed while clicking on ""What's next"" text link"
-Incorrect date is displaying on the downloaded and shared file of Loyalty Point Expiry History page
-Allocated Credit limit is wrong on All Set page while registering BNPL user
-Failed entries are showing in Green Color on view more page.
-External ID is displaying on the transaction summary page instead of Product name
-Localization_Spanish: When the language is selected as Spanish the App crashes
-Pay By Points UI is not matching with wireframe
-Transaction Summary details are showing blank after clicking on back button from View Terms & Conditions page.
-UI issues: Loyalty Point Expiry History page
-UI issue: 's' is missing on the View Terms & Conditions button
-UI issues on Loyalty Profile Detail page
-Validation message is different in mobile from web on the redeem points screen.
-Monetary value is shown as inr 0.00 and not as per wireframe
-The name of the LNR Profile is not visible properly
-Download Profile Benefit is not proper as per the wireframe
-Points redeemed mobile ui doesn't match wireframe
-"""PAID TO"" Details are not appropriate in txn history passbook."
-Recent transaction cards scrolling is wrong
-User not able to add the Bank and Card in Payment instrument Page(sorry something went wrong. please try again )
-User is not able to see the Payment screen after click on Payment Options
-App crash while redeem all points
-"""Set Your Goal"" option is missing."
-By default all available should be visible on the to be redeemed amount
-Updated balance is showing incorrect amount on the Success transaction page after doing Mobile Top-up
-Added bank account (Jobi Bank) is not showing while doing transaction
-Updated Balance is showing incorrect on the Successful transaction page
-Pouch Name is showing with the earn/burn points in the LNR transaction summary
-"""Paid with"" section in the detailed transaction summary is not showing properly"
-Transaction Status text should be visible on the LNR transaction summary page
-Earned Points should be visible in green color in the LNR transaction summary
-Installment count is not increasing and Next Installment Date is not changing even after Schedular works and auto deduction happens.(Schedular Type : Daily)
-User is able to move to Select pouch page even transaction amount is more than Goal amount when scheduling in ON
-Segregation of change location page and filter page
-User is able to create Goal with amount min as Rs. 1 and maximum as Rs. 999999
-Prefix 0 are not allowing in Load Money amount text field.
-"Prefix 0 are not allowing in ""Goal Amount"" field."
-"Decimal amount is not allowing in the below fields (Goal Amount Text field, Amount Text field with Scheduling OFF/ON , Load Amount text field."
-User is able to move to Select pouch page even transaction amount is more than Goal amount
-All wallet Name is displaying as Emoney in Wallet Tab (Hamberger Menu)
-Pencil icon is not working once we Goal Image is set.
-Background changes while tapping on Next Button with blank value in Load Amount Field.
-The Mobifin app crashes when payment instrument selection is made and clicked on confirm button
-On click of Confirm button of Redeem points the MobiFin app crashes
-Saved Amount is missing and there is no space between INR and amount.
-Recurring amount is showing same as Goal amount while entering less/more than the recurring amount also while entering any other characters except numeric.
-Inappropriate validation while entering any other character except numeric in Amount Field when Scheduling is OFF.
-s is missing in Terms & Conditions.
-"UI-UI of ""Goal Based Savings"" screen is not as per wireframe."
-Confirmation details message and Transaction successful message is not correct as per the req doc for Pay in Full scenario
-"There is no Character limit , and in inappropriate validation message is displayed on entering any other characters except Numeric."
-Oh No screen UI is not proper when user is clicking on the Check Eligibility(when User Activation Period YY days is not completed) from Payment options page
-Congratulations page screen UI is not proper when user is clicking on the Check Eligibility from Payment options page
-Oh No screen UI is not proper when user is clicking on the Check Eligibility(when User Activation Period YY days is not completed and min average transaction value not met) from Payment options page
-Oh No screen UI is not proper when user is clicking on the Check Eligibility(when min. average transaction value not met) from Payment options page
-"Prefix 0 is not allowing in ""Goal Tenure(Months)"" field."
-"UI- ""Continue my goal"" button's padding is not proper."
-App gets crashed while uploading large size Goal image.
-"Special character are allowed in the ""Goal Name"" , ""Goal Motivation"" and ""Goal Amount Field""."
-Goal tenure is not visible.
-"""Transaction Successful"" has been showing in success screen instead of ""Goal created successfully"""
-Taking much time to set Goal image and after inappropriate validation message although able to set.
-GBS-Numeric Keyboard should be open in all Amount Text field.
-FAQ page is not opening.
-Terms & Conditions page is not available.
-Wallet and Amount details is not showing Wallet Tab (Hamburger Menu)
-User is not able to see the Payment screen after click on Payment Options
-Pin Location Positioning
-Dropdown not displayed properly
-Shared message content is wrong
-NearBy Option is missing from the login page
-Late fee value
-User not able to view other bank accounts linked with the user
-Unable to add card.
-Gap between Expired points and Unit
-Paying with tab in the successful transaction Screen is not as per mentioned in the document V1.6
-Pay by Points pop-up screen is not displaying.
-MobiFin Elite Logo should not be displayed in the detailed Transaction receipt in the LNR transaction summary
-App crashing after clicking on Switch to List view
-Internet Connectivity validation is not in the first page
-Language drop-down keeps loading in Login page.
-Validation is incorrect in Confirm Bank A/C number text field while adding bank a/c.
-"Able to enter alphabets , Alphanumeric & special characters in the Amount Text field."
-Showing Insufficient balance at below of the LNR pouch and zero balance in the Pay by Points pop up make even after having sufficient balance in pouch
-Validation message is different as per document.
-Nasswallet name prompting in advertisment
-No Records displaying in the Transactions page
-User shouldn't be able to select more than two wallets at a time
-User should be able to enter same login MPIN while doing the Transaction as well
-User is not able to add new Card as user is getting error message 'Age less than 18 years old is not allowed' for the Card Expiry field
-View by navigating to blank page
-Terms and Condition Button no clickable
-Point Expiry History
-LNR dashboard UI issues
-BNPL Option is disable when user is trying to do transaction through BNPL_POUCH
-"""What's Next"" popup error"
-"Success message UI is not as per provided document, it should not be in toast message."
-Delete card and Set as default card success message is not as per document.
-"""Add new account"" text is not available instead ""Add bank account"" is present."
-"""close"" button (x) at the top right corner of the confirmation pop-up is not present"
-Back button and services tab is not visible when we click on hamburger menu symbol.
-On payment options home page hamburger menu symbol is not visible
-Payment options is not loading for BNPL and Multipayment feature
-when we are using the app for the very first time and we are PIN the location on the map but it is showing the user's current location on the map view
-when we are using the app for the very first time and we are selecting the location from the dropdown but it is showing the user's current location on the map view
-Incorrect Criteria Text when check eligibility criteria process when both criteria for minimum activation period and the minimum average transaction value are not met
-Criteria Text is not correct when check eligibility criteria process when Min Average Transaction value is not
-Eligibility criteria text is not correct when check eligibility screen when Activation period is not completed
-Eligibility criteria is missing and Later button is not displaying in the Congratulations page
-When amount is greater that BNPL EMI threshold amount then PAY in 3 emi is not working
-"Doller symbol is missing for Amount, Late Payment Fees and Total Payable Amount fields from BNPL Payment page and Page name is not same as per document"
-Not able to scroll the Current Statement page and page UI is not aligned properly
-UI alignment of green line goes out from the Progress bar
-Latitude and Longitude of the selected area should be displayed instead of Pinned location text
-Near by Explore Text label should be there instead of Pinned Location
-Amount is displaying in IQD instead of $ in the BNPL dashboard page
-Latitude and Longitude of the selected area should be displayed instead of Explore nearby
-Near by Explore Text label should be there instead of Explore nearby
-Incorrect eligibility Text is displaying on the Failure screen when Minimum activation period is not met and Skip and Continue button is missing on the page
-It taking time to load the BNPL dashboard page
-Search Result is not displayed on the Map view for the selected entity
-User's updated location should get reflected on the Map view
-User not able to select the range (diameter or km)
-"Alignment of the ""Change"" button is not proper"
-"""Near by Explore"" text should be displayed instead of the ""Current Location"" text"
-Current Location or latitude and longitude should be visible to the user
-BNPL Banner image populates randomly when redirecting from 1 page to next page
-In multi payment BNPL is visible but in disabled state
-A flash screen of eligibility check banner reflects after log in or sometimes
-8849409896-Transaction amount is greater than available limit(Though we are transferring less amount than available bal)
-8849409896-when click on payment options under profile gives error-screen shot taken and while making payment also
-8849409896-already registered for BNPL but still it is taking to congratulations page and continue to register
-"Not able to go back from congratulations page for failure user, we have to click on device back button"
-"While log in , something went error popup comes every time"
-Not able to set any pouch/card/bank as default
-UI issues on Withdraw money page.
-User not able to burn points when using LNR pouch only
-The LNR Profile is not upgraded runtime
-User not able to pay overdue bills when Payable amount is in Decimal value
-User is not able to load money.
-Getting 'Transaction amount is more than available credit limit' error message even if the user has entered the amount which is less than BNPL available credit limit
-Points are not earned in mobile top-up successful transaction (Android)
-Showing incorrect Total Payable Amount(INR) in the BNPL payment screen for the overdue bills
-"while adding the card , when user enters the expiry date it gives error- Age less than 18 years is not allowed"
-Set as default bank account success message is not as per document.
-Success message for default card and delete card should be same as per provided in document.
-"By default ""remarks"" is showing in Reference field and Reference is missing in the failed txns."
-Goal status as Achieved/Completed is not getting changed on Current/Past goal tab of GBS.
-"While doing the transaction from the UI, Entry is not visible in the Database for that transaction."
-"User created from ICICI tenant giving ""user not found error"""
-list payment options are not loading while doing P2P transfer
-Amount filed is not showing for Group Admin in Split payment
-P2P is not working even After Valid MPIN
-View More button is not displaying if the transaction history has more than 5 records
-Remaining goal amount is displaying as negative value when user loads extra money.
-Submit button on the Add card page is not working
-Destination location is coming in Lat Long
-Transaction History list view: Red cross should display if the transaction gets failed.
-Filter results are showing same if the user change the status from Success to Fail or Pending
-Success message on the Transaction successful screen of Withdraw money is not proper as per wire frame
-Validation message is incorrect when user reached maximum limit for GBS.
-"File name is incorrect when user print, share and download the receipt, it should be same as Web."
-Background Screen should get blurred when pop-up appears
-Transaction History details: UI Issues
-Filter functionality of transaction history is not available in Mobile App as compared to Web portal.
-Create Goal Confirmation and Success screen: UI Issues.
-The message for next installment should be bold as compared to Wireframe. Also 'i' symbol is incorrect.
-Failed records are not getting displayed on Transaction History of Mobile App. (Android and iOS)
-"Amount is not visible in ""Paying with"" section below Change Payment option for BNPL Transaction"
-Mobile topup not working if Points are not in rule range
-Navigation for entity is not proper
-Success message is not displaying on the Transaction successful screen of Withdraw money
-Success message is not displaying on the Transaction successful screen of Cancel goal
-"On the transaction successful page of goal creation, few fields are displaying in different language"
-Monetary text on Transaction success screen
-View more page for Transaction summary is not loading in first attempt
-"Error message should show ""0"" when we try to redeem all the available points"
-Invalid MPIN error message is incorrect
-Incorrect MPIN for redemption is giving success message
-Profile not getting downgraded after redeeming points
-Points are not getting updated on LNR dashboard after redeeming
-"Error message for ""Redemption points"" is incorrect"
-"Error message ""Loyalty points balance"" when redeem points is '0'"
-App is displaying white screen when clicking on the Load Money option on the very first time
-Navigation points is opposite
-Not able to scroll pin location
-Transaction amount is not visible on the success screen
-user not able to go back
-Transaction amount is showing 2 times on the confirmation details page
-Updated balance amount is incorrect
-Transaction not visible under LNR transaction details
-Latest transaction details are not getting displayed
-CVV not displayed properly for CARD
-Monetary value is displayed incorrectly on success transaction screen
-Localization _ Arabic is not working for create goal GBS
-Transaction amount is not visible on the success screen
-"Even tho google maps is available, App is prompting it isnt"
-Headers of Filter screen are not in bold
-Cancel button should display on Pay by point pop screen.
-BNPL late fee and total payable fee not matching
-Loyalty points should be visible instead of Loyalty wallet
-UI element of Split payment initiated doesnt match wirefram
-UI doesn't match the Split Payment page wireframe
-"UI doesn't match the ""remove member"" wireframe"
-UI element of Edit group doesnt match Wireframe
-UI element of Group detail doesnt match the wireframe
-UI element of the add member doesnt match wireframe
-UI doesnt match the wireframe of Create Group page
-UI Element of Split Payment Dashboard page is not as per the wireframe
-Transaction History filter is not working properly.
-Remaining value is displaying as '4.6' instead of '4.60' on Success page of Load money.
-Validation message is improper when maximum goal creation limit gets reached.
-USD is showing before Amount Instead of INR
-Successful Transaction message doesn't match wireframe
-Points value is not displayed in Paid with section in loyalty summary
-Value is not getting changed when user updates the recurring amount and do the create goal transaction.
-Print Screen UI is not proper after doing BNPL payment
-Decimal values should be displaying on Goal Details page when user do Load Money.
-Pay in 3 emi text doesn't match the wire frame for payment popup
-Gap between MPIN box and Eye icon
-Gap between Benefits Header and Under Line is not matching Wireframe
-Gap between Eligibility Criteria Header and Under Line is not matching Wireframe
-Point Expiry Tab should be placed 2 and Transaction Summary tab should be 1. Web UI doesn’t match Mobile UI
-Successful message is incorrect after paying pending bill again on clicking repeat button
-Incorrect Transaction details are visible after tried Paying with different paying method
-Download button is missing on the loyalty summary page
-Transaction detail page is blank for LNR
-Balance is not getting displayed on Home page of Customer portal.
-"The position of ""Cancel Goal"" is not proper according to Wireframe."
-The content is getting cut on Create Goal page.
-Transaction Summary reports are not working from Customer Portal reports section.
-Transaction Summary report is not working on Customer portal.
-BNPL credit limit is not showing on All set page while registering
-"User is not able to load money, actual transaction is showing success and the entries are not getting displayed in transaction history."
-Incorrect validation message is getting displayed when user provides Invalid MPIN as compared to Web.
-Website Crashing after clicking Hamburger menu after Success transaction
-Time and Date font UI is not proper on confirmation Page and successful Page
-"Getting ""Adapter Time Out"" when user do Monthly payment and select 'last day of month'"
-Time and date section is not visible below Mobifin logo on confirmation page
-Localization Spanish - UI is not proper on the Card view detail screen
-Recent transactions are not getting displayed on Web.
-Change Payment option is displaying on the confirmation details page while creating new goal
-Incorrect Pop message is displaying when user has entered recurring amount less than Goal Amount. (Not getting matched with Mobile App)
-"When the user increase the browser zooming, then portal is showing zero goal created even though it has more than 1 goal created"
-Localization Arabic : The eye button and the MPIN digits overlap each other on the confirmation page
-"Button should not get displayed on 'Terms & Conditions' page, Fonts are not proper."
-Goal is not getting displayed when insufficient scenario performed and goal status gets changed automatically to 'Cancelled'.
-Transferring From' is not getting displayed on Cancel Goal confirmation page.
-Operator name is missing on the transaction successful page
-UI for Eye Icon is not proper after clicking on Eye
-Eye Icon is not working on Login Page for MPIN
-Successful and Failed Page UI is not proper as it not matching wireframe
-Confirmation Page UI is not proper as it not matching wireframe
-The Operator name is missing on the confirmation screen of LNR web portal
-Remaining amount is showing as negative value when user loads extra money.
-Goal Based Savings' Service is not getting displayed in the Footer.
-"Hand icon on hover is not getting displayed on ""Copy"" button."
-The Unit name is external id on redeem points
-Filter is not working properly on Transaction History Details.
-Submit button disables when 5 points are entered to be redeemed
-Goal Name is incorrect on transaction history details page.
-Button name is incorrect according to Wireframe. It is showing as 'Cancel' instead of 'Back'.
-Profile picture is not getting filled when user uploads it while creating the goal.
-The file name is incorrect when user downloads the transaction receipt of Withdrawal.
-NAN is showing as UI is not correct on confirmation page
-Submit button should display as Grey color on all confirmation pages of GBS services if user has not entered the MPIN.
-"""Available : INR"" should get displayed instead of ""Available- INR"" on confirmation page of all services of GBS."
-Wrong page is getting displayed when user provides invalid MPIN while Withdraw and Cancel the goal.
-Available Limit shows in USD instead INR in Payment option page for BNPL
-"Page name is incorrect, as compared to Wireframe on Success page of Withdraw money."
-Bottom message is incorrect on success page of Withdraw money.
-Achieved goals should get displayed in 'Current Goal' sections if amount is not withdrawal.
-Label for Goal Achieved is incorrect and 'Goal Achieved' should get displayed according to Wireframe.
-Transaction Successful should get displayed instead of 'Success' on Load money success page.
-Transaction Amount is not getting displayed on Confirmation Page of Load money.
-File name is incorrect when user use print functionality and saving as PDF. Also UI of PDF is not proper.
-UI is not as per the given LNR web portal wireframe for Confirmation screen.
-The pop-up box for What's link is not proper as per LNR wireframe
-Transaction and Transaction Summary reports are not working from Customer Portal reports section.
-"Extra text(Late fees to be deducted, as applicable) displaying on the overdue bill payment success screen"
-Transaction PIN Section is present for BNPL Payment page for Pending Bill Payment
-Download button is not working on transaction summary page
-UI doesn't match as Eye Icon is below MPIN Text Field
-Error pops up after clicking on Pay button for Pending bills BNPL
-Progress bar is full even though Available credit limit is zero
-Amount mismatch on BNPL payment screen after Late fees amount and Amount summation
-Showing incorrect Total Payable Amount(INR) in the BNPL payment screen for the overdue bills
-Email icon is not working on transaction history screen.
-Localization Arabic The statement is wrong on the transaction history
-Localization_Arabic Duration : Last 5 transactions is missing on the transaction history page
-Localization Arabic Months are not displayed when scheduling is off
-Localization Arabic The UI of the Payment page is not proper - radio buttons are overlapped
-"Localization Arabic The option of Daily, Month and Yearly is not visible on Goal creation page"
-Transaction History Details Page: UI issues.
-Transaction History screen: UI issues
-Cancel Confirmation Screen: 'Confirm' button is getting displayed instead of 'Submit'.
-Card and Bank wallets should get displayed for 'Load Money' instead of 'Create Goal'.
-UI doesn't match as MPIN text box is present on confirmation page
-Cancel Goal Success Screen: Transaction ID is not getting displayed. Updated balance should get displayed instead of 'Available balance'
-UI doesn't match wireframe while paying BNPL bills
-Emoney wallet is not updating after money transfer to BNPL user
-Transaction Successful' should get display instead of 'Success' on Cancel Success screen.
-User is not able to Withdraw money when Goal is completed/achieved.
-UI is not proper after clicking on the eye icon
-The line is not displaying in UI of Withdraw money.
-The total in the wallet is wrong as LNR points should not be included in total of monetary values
-"Print Receipt: Date is incorrect, download/print icons are not getting displayed properly, and Font issue"
-Download Receipt: Blur letters are getting displayed.
-"Error message "" Transaction amount should not be more than the Goal amount"" is not getting when clicking on Next button."
-"When user clicks on back button from confirmation screen, then it is getting redirected to the 'Select Category' screen."
-Error popups after clicking twice on Loyalty and Rewards button on Dashbord
-Error popups up after clicking on back button from view more
-User is able to enter the characters in 'Goal Name' and 'Goal Motivation'.
-Resend button UI is not correct while registering the BNPL user
-Month Dropdown UI is not proper for BNPL
-Goal with its status is not displaying properly on Past goal page.
-FAQ link is not working.
-"Fonts are not proper as compared to wireframe, also INR is not displaying on error message."
-UI is not correct when user is trying to do BNPL payment using pay in full
-App should display error when internet gets disconnected while making transaction via card/bank account/wallet
-Cancel button is visible at Terms and condition Page while registering for BNPL
-User is not getting failure notification for Create Goal.
-User is not getting success notification for Create Goal.
-UI is not correct while registering for BNPL
-UI is not correct when user is trying to do BNPL payment using pay in 3 EMI
-While selecting BNPL payment option for Payment more than credit limit error format is not correct
-While selecting BNPL payment option for overdue bills error message format is not correct
-Buy Now Pay later page is not loading after clicking on Check eligibility.
-Bottom message of success screen is incorrect while creation goal.
-Space and Format issue on Date/Time of Confirmation and Success details page of Create Goal.
-User is getting blank validation message when canceling the goal.
-Wrong button are visible on the transaction successful page
-Pouch Deducted amount is not correct on Confirmation Page while paying for OverDue bills
-The text label on transaction receipt page for successful is not as per the wireframe
-Visa logo should be at the downwards of the card number text box
-Value of transaction amount is not getting displayed on confirmation and success screens of load money.
-"User is able to load money with amount as 0, and in success page its showing amount as 50."
-"User is not able to upload the profile image, getting error ""Invalid method request"" in console."
-Repeat word is getting displaying on success page of Create Goal.
-The page keeps loading when user clicks on Transaction history details.
-Wrong date is showing in the information text
-User is able to select BNPL Payment option even we add more amount than credit limit for BNPL
-Wrong UI and colors on the transaction receipt for web portal when goal is created
-User is able to select BNPL Payment option even it has not cleared unpaid bills for BNPL
-Information text is not proper
-Download icon button icon is not working on the GBS screen of Web portal
-"User is not able to do load money from Goal-based savings, getting ""Something Went Wrong""."
-"Getting ""Service Unavailable"" when user clicks on Withdraw Money."
-Congratulation and Oh no page is visible at after clicking BNPL on Payment option Page
-Blank page is getting displayed when user clicks 'Add money to wallet'.
-Getting error in banklist API of Create Goal page.
-Alignment of the back button is wrong on the LNR Profile page on web portal
-"Not able to see newly created goal in the Current/Past goal list, getting error in getWallet API."
-Error pop is visible after clicking on pay button for bill due date BNPL
-Download button is not working from View more screen of Loyalty Point Expiry History
-Both Oh No and congratulation page is visible at on Eligibility criteria page for BNPL
-Loyalty Transaction Page is not visible able clicking on View more
-Updated Monetary value and conversation details is not visible in Success Transaction Page
-Transaction Receipt Page is not visible.
-The page is loading for Transaction summary on customer web portal.
-"After clicking on the back button , the user is redirected to the Points expiry screen"
-Redeem Points is showing wrong transaction sense (like showing Green instead of red)
-Updated balance and Wallet balance are different
-Able to add card with invalid card number.
-"p2p is failing when pay through BNPL_POUCH, cards, bank account"
-User is not able to click on any transaction in transaction summary on LNR dashboard
-Home icon is not visible on the transaction receipt page
-UI on the loyalty and rewards is not proper
-"""Nasswallet"" is displayed on URL header"
-"""Nasswallet"" name under the Element Name"
-Earned Loyalty points are not visible in the transaction receipt and transaction history
-Special character is accepted under CVV
-Transaction successfull screen is incorrect as given in the req. documents.
-The button of Download Catalogue should not be visible when the admin has not uploaded any file in it.
-Image is not displayed on the LNR silver profile page
-Back button is not visible in LNR profile page
-Change payment options for Pay by points button is not visible in payment instruments
-View terms and conditions button is not working
-Blank page is displayed on the click of View more button
-What's next link is not visible on the LNR dashboard
-Transactions are not visible in the LNR Transaction Summary
-Transactions are not visible in the Transactions report
-"Updated Balance is not updated ""NAN"" is displayed after the money transfer is successful"
-user is not able to make p2p with Mobifin web
-"when overdue bills are there, it still allowing to Use BNPL pouch for p2p transfer."
-"In The Congratulation page, we are not able to see the Credit limit"
-Eligibility criteria Text for BNPl is not matching with the Criteria Text given in the Requirement Document.
-"when user has pending bills From the bill generation date till the bill due date, still it is giving error-kindly pay your unpaid bills"
-Pending bills date is passed but that bill is not updated with Overdue bill
-"Credit amount is not matching in All set screen and BNPL profile screen, credit amount in the All Set screen is not separated with ""."""
-2 pending bills are displaying for same billing cycle month
-"While paying pending bills, pay bill screen is not as per req.document/wireframe"
-"currency on progress bar and confirmation page and transaction successfull page , every where in the application currency is shown as ""IQD"" and in req. doc/wireframe it is shown as""$"""
-When we click on any Header Under recent Bills we get a SORT option visible
-Recent Transaction screen is not visible on BNPL profile page
-Available credit limit and pregress bar value are not matching on BNPL dashboar
-When amount is greater that BNPL EMI threshold amount then PAY in 3 emi is not working
-"In congratulations page, ""Later"" button is not present"
-criteria Text and validation text for min. average transactions are not correct and when check eligibility criteria process when Min Average Transaction value is not met
-eligibility criteria text and validation Text for activatio period are not correct when check eleigibility screen when Activation period is not completed
-Incorect Criteria Text when check eligibility criteria process when both criteria for minimum activation period and the minimum average transaction value are not met
-BNPL dashboard page taking 2-3 mins time when loading and No Data Displayed on Dashboard screen though we have done Transaction using BNPL
-check eligibility screen should be some more large so we can see the Text on it
-multi pay option- when bank account selected then only confirm button is enable when BNPL selected it is disabled(failure user) And User is not able to choose BNPL for Multipaymentb Case
-Money Transfer and confirmation Details page Title are incorrect as shown in the requirement documents and image for both screens are missing
-Change payment option text is in Sky blue color and in documents it is in black color
-"Download button in the Transaction from current statement is disabled and there is No print , share option available for WEB"
-pay in full and emi Text at confirmation page and transaction sucsefull validation text is incorrect as per re. doc.
+Issue Summary,Category 1
+P2P is not working even After Valid MPIN,P2P
+View More button is not displaying if the transaction history has more than 5 records,View more 
+Remaining goal amount is displaying as negative value when user loads extra money.,remaining goal  amount
+Submit button on the Add card page is not working,add card page
+Destination location is coming in Lat Long,Destination location
+Transaction History list view: Red cross should display if the transaction gets failed.,Transaction history list view
+Filter results are showing same if the user change the status from Success to Fail or Pending,filter results
+Success message on the Transaction successful screen of Withdraw money is not proper as per wire frame,withdraw money
+Validation message is incorrect when user reached maximum limit for GBS.,GBS
+"File name is incorrect when user print, share and download the receipt, it should be same as Web.",file name
+Background Screen should get blurred when pop-up appears,background screen
+Transaction History details: UI Issues,transcation history
+Filter functionality of transaction history is not available in Mobile App as compared to Web portal.,transaction history
+Create Goal Confirmation and Success screen: UI Issues.,create goal
+The message for next installment should be bold as compared to Wireframe. Also 'i' symbol is incorrect.,message for next installment
+Failed records are not getting displayed on Transaction History of Mobile App. (Android and iOS),transaction history 
+"Amount is not visible in ""Paying with"" section below Change Payment option for BNPL Transaction",BNPL
+Mobile topup not working if Points are not in rule range,mobile top up
+Navigation for entity is not proper,navigation for entity
+Success message is not displaying on the Transaction successful screen of Withdraw money,withdraw money
+Success message is not displaying on the Transaction successful screen of Cancel goal,Cancel goal
+"On the transaction successful page of goal creation, few fields are displaying in different language",transaction successful page of goal creation
+Monetary text on Transaction success screen,transaction success screen
+View more page for Transaction summary is not loading in first attempt,View more page of transaction summary
+"Error message should show ""0"" when we try to redeem all the available points",redemption points
+Invalid MPIN error message is incorrect,Invalid MPIN 
+Incorrect MPIN for redemption is giving success message,Invalid MPIN 
+Profile not getting downgraded after redeeming points,redemption points
+Points are not getting updated on LNR dashboard after redeeming,redemption points
+"Error message for ""Redemption points"" is incorrect",redemption points
+"Error message ""Loyalty points balance"" when redeem points is '0'",loyalty points balance
+App is displaying white screen when clicking on the Load Money option on the very first time,No data displayed on the Load Money option
+Navigation points is opposite,Navigation points
+Not able to scroll pin location,Pin Location
+Transaction amount is not visible on the success screen,success screen
+user not able to go back,Back button 
+Transaction amount is showing 2 times on the confirmation details page,Confirmation Page
+Updated balance amount is incorrect,Updated balance amount
+Transaction not visible under LNR transaction details,LNR transaction details
+Latest transaction details are not getting displayed,Latest transaction
+CVV not displayed properly for CARD,CVV
+Monetary value is displayed incorrectly on success transaction screen,success transaction
+Localization _ Arabic is not working for create goal GBS,GBS
+Transaction amount is not visible on the success screen,Transaction amount
+"Even tho google maps is available, App is prompting it isnt",Map view
+Headers of Filter screen are not in bold,filter screen
+Cancel button should display on Pay by point pop screen.,pay by points
+BNPL late fee and total payable fee not matching,BNPL
+Loyalty points should be visible instead of Loyalty wallet,Loyalty wallet
+UI element of Split payment initiated doesnt match wirefram,Split payment
+UI doesn't match the Split Payment page wireframe,Split payment
+"UI doesn't match the ""remove member"" wireframe",remove member
+UI element of Edit group doesnt match Wireframe,Edit group
+UI element of Group detail doesnt match the wireframe,group detail 
+UI element of the add member doesnt match wireframe,add member
+UI doesnt match the wireframe of Create Group page,create group
+UI Element of Split Payment Dashboard page is not as per the wireframe,Split payment
+Transaction History filter is not working properly.,transaction history
+Remaining value is displaying as '4.6' instead of '4.60' on Success page of Load money.,load money
+Validation message is improper when maximum goal creation limit gets reached.,Goal creation limit
+USD is showing before Amount Instead of INR,payment screen
+Successful Transaction message doesn't match wireframe,transaction page
+Points value is not displayed in Paid with section in loyalty summary,Loyalty summary page
+Value is not getting changed when user updates the recurring amount and do the create goal transaction.,Transaction Details
+Print Screen UI is not proper after doing BNPL payment,BNPL
+Decimal values should be displaying on Goal Details page when user do Load Money.,load money
+Pay in 3 emi text doesn't match the wire frame for payment popup,payment screen 
+Gap between MPIN box and Eye icon,MPIN
+Gap between Benefits Header and Under Line is not matching Wireframe,Benefits Header
+Gap between Eligibility Criteria Header and Under Line is not matching Wireframe,Eligibility criteria
+Point Expiry Tab should be placed 2 and Transaction Summary tab should be 1. Web UI doesnâ€™t match Mobile UI,Transaction summary
+Successful message is incorrect after paying pending bill again on clicking repeat button,Repeat button of pending bill
+Incorrect Transaction details are visible after tried Paying with different paying method,Transaction page
+Download button is missing on the loyalty summary page,Loyalty summary page
+Transaction detail page is blank for LNR,LNR transaction summary
+Balance is not getting displayed on Home page of Customer portal.,Customer portal
+"The position of ""Cancel Goal"" is not proper according to Wireframe.",Cancel goal
+The content is getting cut on Create Goal page.,Create goal
+Transaction Summary reports are not working from Customer Portal reports section.,Customer portal
+Transaction Summary report is not working on Customer portal.,Customer portal
+BNPL credit limit is not showing on All set page while registering,BNP
+"User is not able to load money, actual transaction is showing success and the entries are not getting displayed in transaction history.",Transaction history
+Incorrect validation message is getting displayed when user provides Invalid MPIN as compared to Web.,Invalid MPIN 
+Website Crashing after clicking Hamburger menu after Success transaction,hamburger menu
+Time and Date font UI is not proper on confirmation Page and successful Page,Confirmation Page
+"Getting ""Adapter Time Out"" when user do Monthly payment and select 'last day of month'",Monthly payment
+Time and date section is not visible below Mobifin logo on confirmation page,Confirmation Page
+Localization Spanish - UI is not proper on the Card view detail screen,card view detail screen
+Recent transactions are not getting displayed on Web.,Transaction history
+Change Payment option is displaying on the confirmation details page while creating new goal,Change payment
+Incorrect Pop message is displaying when user has entered recurring amount less than Goal Amount. (Not getting matched with Mobile App),Goal amount
+"When the user increase the browser zooming, then portal is showing zero goal created even though it has more than 1 goal created",User portal
+Localization Arabic : The eye button and the MPIN digits overlap each other on the confirmation page,MPIN Confirmation Page
+"Button should not get displayed on 'Terms & Conditions' page, Fonts are not proper.",Terms and Conditions 
+Goal is not getting displayed when insufficient scenario performed and goal status gets changed automatically to 'Cancelled'.,Goal page display
+Transferring From' is not getting displayed on Cancel Goal confirmation page.,Cancel goal
+Operator name is missing on the transaction successful page,Transaction successful page
+UI for Eye Icon is not proper after clicking on Eye,Eye Icon
+Eye Icon is not working on Login Page for MPIN,Eye Icon
+Successful and Failed Page UI is not proper as it not matching wireframe,Success and Fail Page
+Confirmation Page UI is not proper as it not matching wireframe,Confirmation Page
+The Operator name is missing on the confirmation screen of LNR web portal,LNR web portal
+Remaining amount is showing as negative value when user loads extra money.,payment
+Goal Based Savings' Service is not getting displayed in the Footer.,Goal based saving's service
+"Hand icon on hover is not getting displayed on ""Copy"" button.",copy button problem with hand icon
+The Unit name is external id on redeem points,External ID on redeem points
+Filter is not working properly on Transaction History Details.,Transaction HIstory Details
+Submit button disables when 5 points are entered to be redeemed,Submit button disable
+Goal Name is incorrect on transaction history details page.,Transaction history 
+Button name is incorrect according to Wireframe. It is showing as 'Cancel' instead of 'Back'.,generic ui inconsistency
+Profile picture is not getting filled when user uploads it while creating the goal.,user uploads 
+The file name is incorrect when user downloads the transaction receipt of Withdrawal.,withdrawal 
+NAN is showing as UI is not correct on confirmation page,Confirmation Page
+Submit button should display as Grey color on all confirmation pages of GBS services if user has not entered the MPIN.,MPIN 
+"""Available : INR"" should get displayed instead of ""Available- INR"" on confirmation page of all services of GBS.",Confirmation Page
+Wrong page is getting displayed when user provides invalid MPIN while Withdraw and Cancel the goal.,MPIN goal
+Available Limit shows in USD instead INR in Payment option page for BNPL,BNPL
+"Page name is incorrect, as compared to Wireframe on Success page of Withdraw money.",withdraw money
+Bottom message is incorrect on success page of Withdraw money.,withdraw money
+Achieved goals should get displayed in 'Current Goal' sections if amount is not withdrawal.,current goal sections
+Label for Goal Achieved is incorrect and 'Goal Achieved' should get displayed according to Wireframe.,Goal Achieved
+Transaction Successful should get displayed instead of 'Success' on Load money success page.,Load money 
+Transaction Amount is not getting displayed on Confirmation Page of Load money.,Load money
+File name is incorrect when user use print functionality and saving as PDF. Also UI of PDF is not proper.,PDF upload
+UI is not as per the given LNR web portal wireframe for Confirmation screen.,LNR web portal
+The pop-up box for What's link is not proper as per LNR wireframe,What's next link
+Transaction and Transaction Summary reports are not working from Customer Portal reports section.,Custormer Reports 
+"Extra text(Late fees to be deducted, as applicable) displaying on the overdue bill payment success screen",Bill payment extra text
+Transaction PIN Section is present for BNPL Payment page for Pending Bill Payment,BNPL  
+Download button is not working on transaction summary page,Transaction history
+UI doesn't match as Eye Icon is below MPIN Text Field,MPIN
+Error pops up after clicking on Pay button for Pending bills BNPL,BNPL  
+Progress bar is full even though Available credit limit is zero,credit score
+Amount mismatch on BNPL payment screen after Late fees amount and Amount summation,BNPL  
+Showing incorrect Total Payable Amount(INR) in the BNPL payment screen for the overdue bills,BNPL  
+Email icon is not working on transaction history screen.,Transaction history
+Localization Arabic The statement is wrong on the transaction history,Transaction history
+Localization_Arabic Duration : Last 5 transactions is missing on the transaction history page,Transaction history
+Localization Arabic Months are not displayed when scheduling is off,History screen 
+Localization Arabic The UI of the Payment page is not proper - radio buttons are overlapped,Payment Page 
+"Localization Arabic The option of Daily, Month and Yearly is not visible on Goal creation page",History screen 
+Transaction History Details Page: UI issues.,History screen 
+Transaction History screen: UI issues,Transaction history
+Cancel Confirmation Screen: 'Confirm' button is getting displayed instead of 'Submit'.,Confirmation Page
+Card and Bank wallets should get displayed for 'Load Money' instead of 'Create Goal'.,Load money
+UI doesn't match as MPIN text box is present on confirmation page,MPIN
+Cancel Goal Success Screen: Transaction ID is not getting displayed. Updated balance should get displayed instead of 'Available balance',Cancel goal
+UI doesn't match wireframe while paying BNPL bills,BNPL
+Emoney wallet is not updating after money transfer to BNPL user,Emoney wallet
+Transaction Successful' should get display instead of 'Success' on Cancel Success screen.,Cancel Success
+User is not able to Withdraw money when Goal is completed/achieved.,Withdraw money
+UI is not proper after clicking on the eye icon,Eye Icon
+The line is not displaying in UI of Withdraw money.,Withdraw money
+The total in the wallet is wrong as LNR points should not be included in total of monetary values,Wallet inconsistency
+"Print Receipt: Date is incorrect, download/print icons are not getting displayed properly, and Font issue",Print Receipt
+Download Receipt: Blur letters are getting displayed.,Download Receipt
+"Error message "" Transaction amount should not be more than the Goal amount"" is not getting when clicking on Next button.",Backend issue about 
+"When user clicks on back button from confirmation screen, then it is getting redirected to the 'Select Category' screen.",confirmation Screen categories selection
+Error popups after clicking twice on Loyalty and Rewards button on Dashbord,Error Popups 
+Error popups up after clicking on back button from view more,Error Popups 
+User is able to enter the characters in 'Goal Name' and 'Goal Motivation'.,Goal Screen  Issue
+Resend button UI is not correct while registering the BNPL user,BNPL
+Month Dropdown UI is not proper for BNPL,BNPL
+Goal with its status is not displaying properly on Past goal page.,Goal Screen  Issue
+FAQ link is not working.,FAQ 
+"Fonts are not proper as compared to wireframe, also INR is not displaying on error message.",INR
+UI is not correct when user is trying to do BNPL payment using pay in full,BNPL
+App should display error when internet gets disconnected while making transaction via card/bank account/wallet,backend issues
+Cancel button is visible at Terms and condition Page while registering for BNPL,BNPL
+User is not getting failure notification for Create Goal.,Goal Screen  Issue
+User is not getting success notification for Create Goal.,Goal Screen Issue
+UI is not correct while registering for BNPL,Goal Screeen Issue
+UI is not correct when user is trying to do BNPL payment using pay in 3 EMI,Goal Screen  Issue
+While selecting BNPL payment option for Payment more than credit limit error format is not correct,BNPL
+While selecting BNPL payment option for overdue bills error message format is not correct,BNPL
+Buy Now Pay later page is not loading after clicking on Check eligibility.,Buy Now Pay later
+Bottom message of success screen is incorrect while creation goal.,Goal screen issue
+Space and Format issue on Date/Time of Confirmation and Success details page of Create Goal.,Goal screen issue
+User is getting blank validation message when canceling the goal.,Goal Screen issue
+Wrong button are visible on the transaction successful page,Transaction page 
+Pouch Deducted amount is not correct on Confirmation Page while paying for OverDue bills,Confirmation Page
+The text label on transaction receipt page for successful is not as per the wireframe,transaction receipt
+Visa logo should be at the downwards of the card number text box,Visa logo
+Value of transaction amount is not getting displayed on confirmation and success screens of load money.,Load money
+"User is able to load money with amount as 0, and in success page its showing amount as 50.",Success page 
+"User is not able to upload the profile image, getting error ""Invalid method request"" in console.",Upload image
+Repeat word is getting displaying on success page of Create Goal.,Goal and Success screen issue
+The page keeps loading when user clicks on Transaction history details.,Transaction history
+Wrong date is showing in the information text,backend issues
+User is able to select BNPL Payment option even we add more amount than credit limit for BNPL,BNPL
+Wrong UI and colors on the transaction receipt for web portal when goal is created,transaction receipt
+User is able to select BNPL Payment option even it has not cleared unpaid bills for BNPL,BNPL
+Information text is not proper,Information text
+Download icon button icon is not working on the GBS screen of Web portal,GBS
+"User is not able to do load money from Goal-based savings, getting ""Something Went Wrong"".",Load money
+"Getting ""Service Unavailable"" when user clicks on Withdraw Money.",Withdraw money
+Congratulation and Oh no page is visible at after clicking BNPL on Payment option Page,BNPL
+Blank page is getting displayed when user clicks 'Add money to wallet'.,Add money
+Getting error in banklist API of Create Goal page.,Create goal
+Alignment of the back button is wrong on the LNR Profile page on web portal,LNR Profile
+"Not able to see newly created goal in the Current/Past goal list, getting error in getWallet API.",Goal Screen Issue
+Error pop is visible after clicking on pay button for bill due date BNPL,BNPL Payment
+Download button is not working from View more screen of Loyalty Point Expiry History,LOYALTY Point Expiry History
+Both Oh No and congratulation page is visible at on Eligibility criteria page for BNPL,BNPL 
+Loyalty Transaction Page is not visible able clicking on View more,LOYALTY Point History Screen
+Updated Monetary value and conversation details is not visible in Success Transaction Page,Transaction page
+Transaction Receipt Page is not visible.,Transaction page
+The page is loading for Transaction summary on customer web portal.,Transaction page
+"After clicking on the back button , the user is redirected to the Points expiry screen",Points expiry Screen
+Redeem Points is showing wrong transaction sense (like showing Green instead of red),Redeem points
+Updated balance and Wallet balance are different,wallet
+Able to add card with invalid card number.,Add card
+"p2p is failing when pay through BNPL_POUCH, cards, bank account",BNPL
+User is not able to click on any transaction in transaction summary on LNR dashboard,LNR dashboard
+Home icon is not visible on the transaction receipt page,Transaction page
+UI on the loyalty and rewards is not proper,LOYALTY Point History Screen
+"""Nasswallet"" is displayed on URL header",Nasswallet
+"""Nasswallet"" name under the Element Name",Nasswallet
+Earned Loyalty points are not visible in the transaction receipt and transaction history,LOYALTY Point History Screen
+Special character is accepted under CVV,CVV
+Transaction successfull screen is incorrect as given in the req. documents.,Transaction page
+The button of Download Catalogue should not be visible when the admin has not uploaded any file in it.,Download Catalogue
+Image is not displayed on the LNR silver profile page,LNR Profile
+Back button is not visible in LNR profile page,LNR Profile
+Change payment options for Pay by points button is not visible in payment instruments,Payment instrument
+View terms and conditions button is not working,Terms and Conditions 
+Blank page is displayed on the click of View more button,ui inconsistency
+What's next link is not visible on the LNR dashboard,LNR dashboard
+Transactions are not visible in the LNR Transaction Summary,LNR Transaction summary
+Transactions are not visible in the Transactions report,transaction page
+"Updated Balance is not updated ""NAN"" is displayed after the money transfer is successful",NAN
+user is not able to make p2p with Mobifin web,P2P
+"when overdue bills are there, it still allowing to Use BNPL pouch for p2p transfer.",BNPL
+"In The Congratulation page, we are not able to see the Credit limit",Congratulations page
+Eligibility criteria Text for BNPl is not matching with the Criteria Text given in the Requirement Document.,BNPL
+"when user has pending bills From the bill generation date till the bill due date, still it is giving error-kindly pay your unpaid bills",payment
+Pending bills date is passed but that bill is not updated with Overdue bill,payment
+"Credit amount is not matching in All set screen and BNPL profile screen, credit amount in the All Set screen is not separated with "".""",BNPL
+2 pending bills are displaying for same billing cycle month,Transaction
+"While paying pending bills, pay bill screen is not as per req.document/wireframe",Transaction issue
+"currency on progress bar and confirmation page and transaction successfull page , every where in the application currency is shown as ""IQD"" and in req. doc/wireframe it is shown as""$""",Progress bar
+When we click on any Header Under recent Bills we get a SORT option visible,SORT
+Recent Transaction screen is not visible on BNPL profile page,BNPL
+Available credit limit and pregress bar value are not matching on BNPL dashboar,BNPL
+When amount is greater that BNPL EMI threshold amount then PAY in 3 emi is not working,BNPL
+"In congratulations page, ""Later"" button is not present",Congratulations page
+criteria Text and validation text for min. average transactions are not correct and when check eligibility criteria process when Min Average Transaction value is not met,Criteria Text
+eligibility criteria text and validation Text for activatio period are not correct when check eleigibility screen when Activation period is not completed,Criteria Text
+Incorect Criteria Text when check eligibility criteria process when both criteria for minimum activation period and the minimum average transaction value are not met,Criteria Text
+BNPL dashboard page taking 2-3 mins time when loading and No Data Displayed on Dashboard screen though we have done Transaction using BNPL,BNPL
+check eligibility screen should be some more large so we can see the Text on it,check eligibility
+multi pay option- when bank account selected then only confirm button is enable when BNPL selected it is disabled(failure user) And User is not able to choose BNPL for Multipaymentb Case,BNPL
+Money Transfer and confirmation Details page Title are incorrect as shown in the requirement documents and image for both screens are missing,Confirmation Page
+Change payment option text is in Sky blue color and in documents it is in black color,Change payment
+"Download button in the Transaction from current statement is disabled and there is No print , share option available for WEB",transaction page
+pay in full and emi Text at confirmation page and transaction sucsefull validation text is incorrect as per re. doc.,Confirmation Page
+Buttons size are not proper on Confirmation Page.,Confirmation Page
+ Top label Spacing margin - Payment Instrument Selection Page,Payment instrument
+[Mobile App] Keypad should be numeric when user enters mobile number while doing Topup.,Keypad
+Incorrect Monetary value is getting displayed on Buy Voucher transaction success screen.,Buy voucher
+Credit Value and Progress bar is not proper on BNPL Dashboard,BNPL
+"After entering invalid member Mobile numner, getting wrong error message",invalid member Mobile Number
+"Getting ""Data not found"" when user tries to open ""Declined by you"" card in payment status tab",Payment status tab
+Filter is not working properly on the Goal History page,Goal History page
+"After click on Paid by All, the status automatic change to Mark as Paid",Paid by All
+Error message is not correct for already added member,already added member
+Error message is not correct for already added group,already added group
+Close (X) is not visible on the Remove All pop-up,Remove All pop-up
+UI of the pending payment tab for member is not matching with the wireframe,pending payment tab
+"""Split Payment - Decline"" text should visible at the top of the screen after clicking on the decline button",Split Payment
+UI of the payment status for admin/Member is not matching with the wireframe,payment status
+LNR Profile Wrong Shown,LNR Profile
+Image is upload is not working while creating Group in SplitPayment,Split Payment
+"No. of Members is showing incorrect on group tile on the Split Payment screen, when going back by clicking mobile's back button",Split Payment
+After getting the error for uploading more than 100KB of image still user is able to create the group and move forward,Oversize image upload
+Image is not showing properly on the added group tile on the split payment screen,Split Payment

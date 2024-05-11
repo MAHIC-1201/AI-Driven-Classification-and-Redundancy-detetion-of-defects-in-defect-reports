@@ -224,6 +224,7 @@ function DuplicatesDetectionPage1({ setCurrentPage }) {
           <div className='filter'>
             <input type="text" placeholder="Search any defect" value={filterValue} onChange={handleFilterChange} />
           </div>
+          
           <div className="Results">
             <h2>Results:</h2>
             
